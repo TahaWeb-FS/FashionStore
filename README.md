@@ -58,7 +58,7 @@ This shows the performance when Redis caching is disabled. Each request fetches 
 ### CSR (Client-Side Rendering):
 This screenshot shows the performance of client-side rendering, where the data is fetched on the client-side, usually resulting in a slower initial page load as it depends on JavaScript execution.
 
-![CSR Performance](/app/assets/CSR-LightHouse.png)
+![CSR Performance](app/assets/CSR-LighthHouse.png)
 
 ## Scaling Outline
 
