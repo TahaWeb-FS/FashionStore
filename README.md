@@ -48,17 +48,17 @@ You can view the app live at: https://fashion-store-xi-rosy.vercel.app/
 ### SSR with Caching:
 This is the performance when using Redis caching to store fetched product data. This significantly reduces the load time as the app fetches data from Redis instead of the API on every request.
 
-![SSR with Caching](/app/assets/SSR_RedisCaching.png)
+![SSR with Caching](https://i.imgur.com/G7RJI6A.png)
 
 ### SSR without Caching:
 This shows the performance when Redis caching is disabled. Each request fetches the data from the external API, which takes longer and results in slower load times.
 
-![SSR without Caching](/app//assets/SSR-NoCaching.png)
+![SSR without Caching](https://i.imgur.com/XhjbESF.png)
 
 ### CSR (Client-Side Rendering):
 This screenshot shows the performance of client-side rendering, where the data is fetched on the client-side, usually resulting in a slower initial page load as it depends on JavaScript execution.
 
-![CSR Performance](/app/assets/CSR-LighthHouse.png)
+![CSR Performance](https://i.imgur.com/0tFPgI3.png)
 
 ## Scaling Outline
 
