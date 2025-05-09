@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react';  // Add this import
 
-// No 'use client' — this is a server component by default
 import { redis } from '../lib/redis';
 
 export const dynamic = 'force-dynamic'; // Optional: disable static caching
